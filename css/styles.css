@@ -276,7 +276,14 @@
     bottom: 100%;
   }
 }
-
+.dot-blog {
+  color: red;
+  font-size: 10px;
+}
+.card-row-blog4,
+.card-row-blog5 {
+  margin-top: 30px;
+}
 /*End Slider*/
 /* Journey icon */
 .icon-journey {
@@ -761,7 +768,6 @@
   background: url("../img/parallax-2.jpg");
   background-size: cover;
   padding: 20px 0 70px 0;
-  margin: -20px;
 }
 .text-contact-title {
   text-align: center;
@@ -847,13 +853,11 @@
   color: #f8b600;
 }
 .form-inline {
-  padding-top: 30px;
-  position: relative;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
 }
-.form-group {
-  position: absolute;
-  left: 35%;
-}
+
 .form-group input {
   font-size: 18px;
   width: 100%;
@@ -1450,7 +1454,8 @@ h1 span:nth-child(14) {
   text-decoration: none;
 }
 .news-cnn {
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .section-title {
   background: #f9f9ff;

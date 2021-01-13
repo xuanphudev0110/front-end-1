@@ -8,13 +8,6 @@ function myFunction() {
   }
 }
 
-document.querySelector(".search-icon").addEventListener("click", function() {
-  document.querySelector(".search-screen").classList.add("active-search");
-});
-
-document.querySelector(".close-icon").addEventListener("click", function() {
-  document.querySelector(".search-screen").classList.remove("active-search");
-});
 /** Menu */
 /** countup */
 function countup(el, target) {
@@ -144,7 +137,7 @@ const second = 1000,
   hour = minute * 60,
   day = hour * 24;
 
-let countDown = new Date("Jan 13, 2021 14:54:00").getTime(),
+let countDown = new Date("Jan 13, 2021 21:34:30").getTime(),
   x = setInterval(function() {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -162,7 +155,7 @@ let countDown = new Date("Jan 13, 2021 14:54:00").getTime(),
     } else {
       let counter = document.querySelector(".end-promotion");
       let hidden = document.querySelector(".countdown-hidden");
-      counter.innerHTML = `<h1>Done !!!</h1>`;
+      counter.innerHTML = `<h4>Promotion has ended. We will hold a new promotion soon. Thank you!!!</h4>`;
       counter.style.marginTop = "70px";
       counter.style.fontStyle = "italic";
       counter.style.color = "#fff";
